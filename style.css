@@ -9,18 +9,20 @@ body {
 main {
   box-sizing: border-box;
   background-color: thistle;
-  opacity: 10%;
   border: 5px dashed white;
   border-radius: 5px;
-  /* margin: 10px;*/
+  margin: 45px;
   padding: 25px;
   min-width: 70vw;
   max-width: 100vw;
   /*align-self: center;*/
 }
-img {
+img.avatar-image {
   border-radius: 55%;
-  box-shadow: black;
+}
+img.social {
+  width: 3vw;
+  height: 5vh;
 }
 
 hr {
@@ -29,15 +31,18 @@ hr {
   width: 65vw;
   height: 5px;
 }
-section > div {
+section.top > div,
+section.footer > div {
   display: inline-block;
-  align-content: center;
+}
+.avatar {
+  border-spacing: 0px;
 }
 div .title {
   /*padding-left: 0px;
   margin-left: 0px;*/
   float: right;
-  vertical-align: 15px;
+  /*vertical-align: 15px;*/
 }
 h3 {
   color: teal;
@@ -47,52 +52,12 @@ h3 {
   font-style: italic;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-/*.title {
-  float: right;
+p.slackid {
+  margin-top: 0px;
+  padding-top: 0px;
+  align-content: flex-start;
 }
-/*
-section .top {
-  display: inline;
+div.follow > a {
+  padding: 5px;
+  margin: 0px 10px;
 }
-
-h3 {
-  color: darkblue;
-  font-style: italic;
-  display: inline-block;
-}
-h1 {
-  text-align: center;
-}
-div .avatar {
-  display: block;
-}
-
-section .avatar div {
-  display: inline-flexbox;
-}
-
-p .name {
-  font-weight: bolder;
-  font-size: x-large;
-  font-style: oblique;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: darkblue;
-}
-
-label {
-  font-style: bold;
-  color: blue;
-  /* font-weight: +5;
-  font-size: +3;
-}
-
-.input,
-textarea {
-  display: block;
-  margin: 10px;
-}
-
-.buttonbuttom {
-  display: inline-flex;
-}
-*/
