@@ -1,0 +1,32 @@
+body {
+  background-image: url("./img/bg.jpg");
+  opacity: 50%;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+form {
+  box-sizing: border-box;
+  background-color: white;
+  position: absolute;
+  width: 50vw;
+  height: 75vh;
+  margin: 200px;
+  border-radius: 15px;
+}
+input {
+  display: block;
+  align-items: center;
+}
+div.field {
+  /* align-content: inherit;*/
+  text-align: center;
+}
+div a {
+  display: inline;
+}
+.button {
+  background-color: lightsalmon;
+}
