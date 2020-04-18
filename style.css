@@ -19,6 +19,11 @@ main {
 }
 img.avatar-image {
   border-radius: 55%;
+  border: 5px dashed;
+  width: 20vw;
+}
+p.slackid {
+  text-align: center;
 }
 img.social {
   width: 3vw;
@@ -31,8 +36,7 @@ hr {
   width: 65vw;
   height: 5px;
 }
-section.top > div,
-section.footer > div {
+section.top > div {
   display: inline-block;
 }
 .avatar {
@@ -48,14 +52,15 @@ h3 {
   color: teal;
   font-weight: bolder;
   font: outline;
-  font-size: 25px;
+  font-size: 35px;
   font-style: italic;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-p.slackid {
-  margin-top: 0px;
-  padding-top: 0px;
-  align-content: flex-start;
+h4 {
+  color: teal;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 div.follow > a {
   padding: 5px;
