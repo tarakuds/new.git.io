@@ -1,5 +1,5 @@
 body {
-  background-image: url("bg.jpg");
+  background-image: url("./img/bg.jpg");
 }
 h1 {
   text-align: center;
@@ -9,22 +9,25 @@ h1 {
 form {
   box-sizing: border-box;
   background-color: white;
-  position: absolute;
+  position: inherit;
   width: 50vw;
   height: 75vh;
   margin: 200px;
   border-radius: 15px;
+  margin: 50px;
+  padding: 25px;
 }
-input {
+div {
+  align-content: center;
+}
+input,
+textarea {
   display: block;
   align-items: center;
 }
-div.field {
-  /* align-content: inherit;*/
-  text-align: center;
-}
-div a {
-  display: inline;
+
+div a input {
+  display: inline-block;
 }
 .button {
   background-color: lightsalmon;
