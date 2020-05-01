@@ -66,3 +66,18 @@ div.follow > a {
   padding: 5px;
   margin: 0px 10px;
 }
+
+section.top center> nav{
+  /*align-content: center;
+  align-items: center;
+  color: white;
+  background-color: white;*/
+  /*font-weight: 15px;*/
+  font-size: 50px;
+  color: teal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px;
+  margin: 25px;
+
+}
